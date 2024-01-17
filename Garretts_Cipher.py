@@ -101,6 +101,8 @@ valid_characters = Get_Valid_Characters()
 
 # Continue to divide and reduce large results until they're within range
 # This could be something I look to redo, as if you change the amount of valid characters the entire encryption will change
+# but I think it's fine actually. I believe that's just a limit of substitutions. It could possibly be a limitation of
+# ciphers, cryptography, and encryption in general that you're limited to your character encoding size. That's to be expected though.
 def reduce_over(temp_result):
     while abs(temp_result) > len(valid_characters):
         temp_result = divmod(temp_result, math.isqrt(len(valid_characters)))
@@ -248,17 +250,20 @@ def garrett_cipher(type_of_conversion):
         if temp_result > len(valid_characters):
             temp_result = reduce_over(temp_result)
         # Determine if a character will shift left (decrease) or right (increase)
-        # if code_key_trans[x] % 2 != 0:
-        #     temp_result = -temp_result
+        if code_key_trans[x] % 2 != 0:
+            temp_result = -temp_result
         key_code_trans.append(temp_result)
     # Step 8: Amount to shift
     shift_amount = []
     for x in key_code_trans:
         temp_x = divmod(x, len(valid_characters))
-        if type_of_conversion == 1:
-            temp_x = temp_x[0] - temp_x[1]
-        elif type_of_conversion == 2:
-            temp_x = temp_x[1] - temp_x[0]
+        temp_x = temp_x[0] - temp_x[1]
+        if type_of_conversion == 2:
+            temp_x = -temp_x
+        # if type_of_conversion == 1:
+        #     temp_x = temp_x[0] - temp_x[1]
+        # elif type_of_conversion == 2:
+        #     temp_x = temp_x[1] - temp_x[0]
         shift_amount.append(temp_x)
     # Step 9: Shift the numbers
     shifted_number = []
