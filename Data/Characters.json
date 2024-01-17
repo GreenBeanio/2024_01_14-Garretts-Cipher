@@ -1,466 +1,466 @@
 {
     " ": {
-        "Order": 5,
+        "Order": 1,
         "Ascii": 32,
         "Section": "Spacing"
     },
     "0": {
-        "Order": 6,
+        "Order": 2,
         "Ascii": 48,
         "Section": "Numbers"
     },
     "1": {
-        "Order": 7,
+        "Order": 3,
         "Ascii": 49,
         "Section": "Numbers"
     },
     "2": {
-        "Order": 8,
+        "Order": 4,
         "Ascii": 50,
         "Section": "Numbers"
     },
     "3": {
-        "Order": 9,
+        "Order": 5,
         "Ascii": 51,
         "Section": "Numbers"
     },
     "4": {
-        "Order": 10,
+        "Order": 6,
         "Ascii": 52,
         "Section": "Numbers"
     },
     "5": {
-        "Order": 11,
+        "Order": 7,
         "Ascii": 53,
         "Section": "Numbers"
     },
     "6": {
-        "Order": 12,
+        "Order": 8,
         "Ascii": 54,
         "Section": "Numbers"
     },
     "7": {
-        "Order": 13,
+        "Order": 9,
         "Ascii": 55,
         "Section": "Numbers"
     },
     "8": {
-        "Order": 14,
+        "Order": 10,
         "Ascii": 56,
         "Section": "Numbers"
     },
     "9": {
-        "Order": 15,
+        "Order": 11,
         "Ascii": 57,
         "Section": "Numbers"
     },
     ".": {
-        "Order": 16,
+        "Order": 12,
         "Ascii": 46,
         "Section": "Punctuation"
     },
     "?": {
-        "Order": 17,
+        "Order": 13,
         "Ascii": 63,
         "Section": "Punctuation"
     },
     "!": {
-        "Order": 18,
+        "Order": 14,
         "Ascii": 33,
         "Section": "Punctuation"
     },
     ",": {
-        "Order": 19,
+        "Order": 15,
         "Ascii": 44,
         "Section": "Punctuation"
     },
     ";": {
-        "Order": 20,
+        "Order": 16,
         "Ascii": 59,
         "Section": "Punctuation"
     },
     ":": {
-        "Order": 21,
+        "Order": 17,
         "Ascii": 58,
         "Section": "Punctuation"
     },
     "-": {
-        "Order": 22,
+        "Order": 18,
         "Ascii": 45,
         "Section": "Punctuation"
     },
     "(": {
-        "Order": 23,
+        "Order": 19,
         "Ascii": 40,
         "Section": "Punctuation"
     },
     ")": {
-        "Order": 24,
+        "Order": 20,
         "Ascii": 41,
         "Section": "Punctuation"
     },
     "[": {
-        "Order": 25,
+        "Order": 21,
         "Ascii": 91,
         "Section": "Punctuation"
     },
     "]": {
-        "Order": 26,
+        "Order": 22,
         "Ascii": 93,
         "Section": "Punctuation"
     },
     "{": {
-        "Order": 27,
+        "Order": 23,
         "Ascii": 123,
         "Section": "Punctuation"
     },
     "}": {
-        "Order": 28,
+        "Order": 24,
         "Ascii": 125,
         "Section": "Punctuation"
     },
     "'": {
-        "Order": 29,
+        "Order": 25,
         "Ascii": 39,
         "Section": "Punctuation"
     },
     "`": {
-        "Order": 31,
+        "Order": 26,
         "Ascii": 96,
         "Section": "Marks and Symbols"
     },
     "~": {
-        "Order": 32,
+        "Order": 27,
         "Ascii": 126,
         "Section": "Marks and Symbols"
     },
     "_": {
-        "Order": 33,
+        "Order": 28,
         "Ascii": 95,
         "Section": "Marks and Symbols"
     },
     "|": {
-        "Order": 34,
+        "Order": 29,
         "Ascii": 124,
         "Section": "Marks and Symbols"
     },
     "/": {
-        "Order": 35,
+        "Order": 30,
         "Ascii": 47,
         "Section": "Marks and Symbols"
     },
     "*": {
-        "Order": 37,
+        "Order": 31,
         "Ascii": 42,
         "Section": "Marks and Symbols"
     },
     "+": {
-        "Order": 38,
+        "Order": 32,
         "Ascii": 43,
         "Section": "Marks and Symbols"
     },
     "=": {
-        "Order": 39,
+        "Order": 33,
         "Ascii": 61,
         "Section": "Marks and Symbols"
     },
     "^": {
-        "Order": 40,
+        "Order": 34,
         "Ascii": 94,
         "Section": "Marks and Symbols"
     },
     "%": {
-        "Order": 41,
+        "Order": 35,
         "Ascii": 37,
         "Section": "Marks and Symbols"
     },
     "<": {
-        "Order": 42,
+        "Order": 36,
         "Ascii": 60,
         "Section": "Marks and Symbols"
     },
     ">": {
-        "Order": 43,
+        "Order": 37,
         "Ascii": 62,
         "Section": "Marks and Symbols"
     },
     "@": {
-        "Order": 44,
+        "Order": 38,
         "Ascii": 64,
         "Section": "Marks and Symbols"
     },
     "&": {
-        "Order": 45,
+        "Order": 39,
         "Ascii": 38,
         "Section": "Marks and Symbols"
     },
     "#": {
-        "Order": 46,
+        "Order": 40,
         "Ascii": 35,
         "Section": "Marks and Symbols"
     },
     "$": {
-        "Order": 47,
+        "Order": 41,
         "Ascii": 36,
         "Section": "Marks and Symbols"
     },
     "A": {
-        "Order": 48,
+        "Order": 42,
         "Ascii": 65,
         "Section": "Uppercase"
     },
     "B": {
-        "Order": 49,
+        "Order": 43,
         "Ascii": 66,
         "Section": "Uppercase"
     },
     "C": {
-        "Order": 50,
+        "Order": 44,
         "Ascii": 67,
         "Section": "Uppercase"
     },
     "D": {
-        "Order": 51,
+        "Order": 45,
         "Ascii": 68,
         "Section": "Uppercase"
     },
     "E": {
-        "Order": 52,
+        "Order": 46,
         "Ascii": 69,
         "Section": "Uppercase"
     },
     "F": {
-        "Order": 53,
+        "Order": 47,
         "Ascii": 70,
         "Section": "Uppercase"
     },
     "G": {
-        "Order": 54,
+        "Order": 48,
         "Ascii": 71,
         "Section": "Uppercase"
     },
     "H": {
-        "Order": 55,
+        "Order": 49,
         "Ascii": 72,
         "Section": "Uppercase"
     },
     "I": {
-        "Order": 56,
+        "Order": 50,
         "Ascii": 73,
         "Section": "Uppercase"
     },
     "J": {
-        "Order": 57,
+        "Order": 51,
         "Ascii": 74,
         "Section": "Uppercase"
     },
     "K": {
-        "Order": 58,
+        "Order": 52,
         "Ascii": 75,
         "Section": "Uppercase"
     },
     "L": {
-        "Order": 59,
+        "Order": 53,
         "Ascii": 76,
         "Section": "Uppercase"
     },
     "M": {
-        "Order": 60,
+        "Order": 54,
         "Ascii": 77,
         "Section": "Uppercase"
     },
     "N": {
-        "Order": 61,
+        "Order": 55,
         "Ascii": 78,
         "Section": "Uppercase"
     },
     "O": {
-        "Order": 62,
+        "Order": 56,
         "Ascii": 79,
         "Section": "Uppercase"
     },
     "P": {
-        "Order": 63,
+        "Order": 57,
         "Ascii": 80,
         "Section": "Uppercase"
     },
     "Q": {
-        "Order": 64,
+        "Order": 58,
         "Ascii": 81,
         "Section": "Uppercase"
     },
     "R": {
-        "Order": 65,
+        "Order": 59,
         "Ascii": 82,
         "Section": "Uppercase"
     },
     "S": {
-        "Order": 66,
+        "Order": 60,
         "Ascii": 83,
         "Section": "Uppercase"
     },
     "T": {
-        "Order": 67,
+        "Order": 61,
         "Ascii": 84,
         "Section": "Uppercase"
     },
     "U": {
-        "Order": 68,
+        "Order": 62,
         "Ascii": 85,
         "Section": "Uppercase"
     },
     "V": {
-        "Order": 69,
+        "Order": 63,
         "Ascii": 86,
         "Section": "Uppercase"
     },
     "W": {
-        "Order": 70,
+        "Order": 64,
         "Ascii": 87,
         "Section": "Uppercase"
     },
     "X": {
-        "Order": 71,
+        "Order": 65,
         "Ascii": 88,
         "Section": "Uppercase"
     },
     "Y": {
-        "Order": 72,
+        "Order": 66,
         "Ascii": 89,
         "Section": "Uppercase"
     },
     "Z": {
-        "Order": 73,
+        "Order": 67,
         "Ascii": 90,
         "Section": "Uppercase"
     },
     "a": {
-        "Order": 74,
+        "Order": 68,
         "Ascii": 97,
         "Section": "Lower Case"
     },
     "b": {
-        "Order": 75,
+        "Order": 69,
         "Ascii": 98,
         "Section": "Lower Case"
     },
     "c": {
-        "Order": 76,
+        "Order": 70,
         "Ascii": 99,
         "Section": "Lower Case"
     },
     "d": {
-        "Order": 77,
+        "Order": 71,
         "Ascii": 100,
         "Section": "Lower Case"
     },
     "e": {
-        "Order": 78,
+        "Order": 72,
         "Ascii": 101,
         "Section": "Lower Case"
     },
     "f": {
-        "Order": 79,
+        "Order": 73,
         "Ascii": 102,
         "Section": "Lower Case"
     },
     "g": {
-        "Order": 80,
+        "Order": 74,
         "Ascii": 103,
         "Section": "Lower Case"
     },
     "h": {
-        "Order": 81,
+        "Order": 75,
         "Ascii": 104,
         "Section": "Lower Case"
     },
     "i": {
-        "Order": 82,
+        "Order": 76,
         "Ascii": 105,
         "Section": "Lower Case"
     },
     "j": {
-        "Order": 83,
+        "Order": 77,
         "Ascii": 106,
         "Section": "Lower Case"
     },
     "k": {
-        "Order": 84,
+        "Order": 78,
         "Ascii": 107,
         "Section": "Lower Case"
     },
     "l": {
-        "Order": 85,
+        "Order": 79,
         "Ascii": 108,
         "Section": "Lower Case"
     },
     "m": {
-        "Order": 86,
+        "Order": 80,
         "Ascii": 109,
         "Section": "Lower Case"
     },
     "n": {
-        "Order": 87,
+        "Order": 81,
         "Ascii": 110,
         "Section": "Lower Case"
     },
     "o": {
-        "Order": 88,
+        "Order": 82,
         "Ascii": 111,
         "Section": "Lower Case"
     },
     "p": {
-        "Order": 89,
+        "Order": 83,
         "Ascii": 112,
         "Section": "Lower Case"
     },
     "q": {
-        "Order": 90,
+        "Order": 84,
         "Ascii": 113,
         "Section": "Lower Case"
     },
     "r": {
-        "Order": 91,
+        "Order": 85,
         "Ascii": 114,
         "Section": "Lower Case"
     },
     "s": {
-        "Order": 92,
+        "Order": 86,
         "Ascii": 115,
         "Section": "Lower Case"
     },
     "t": {
-        "Order": 93,
+        "Order": 87,
         "Ascii": 116,
         "Section": "Lower Case"
     },
     "u": {
-        "Order": 94,
+        "Order": 88,
         "Ascii": 117,
         "Section": "Lower Case"
     },
     "v": {
-        "Order": 95,
+        "Order": 89,
         "Ascii": 118,
         "Section": "Lower Case"
     },
     "w": {
-        "Order": 96,
+        "Order": 90,
         "Ascii": 119,
         "Section": "Lower Case"
     },
     "x": {
-        "Order": 97,
+        "Order": 91,
         "Ascii": 120,
         "Section": "Lower Case"
     },
     "y": {
-        "Order": 98,
+        "Order": 92,
         "Ascii": 121,
         "Section": "Lower Case"
     },
     "z": {
-        "Order": 99,
+        "Order": 93,
         "Ascii": 122,
         "Section": "Lower Case"
     }

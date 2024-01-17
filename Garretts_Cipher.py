@@ -86,12 +86,14 @@ valid_characters = Get_Valid_Characters()
 
 # region Cipher Code
 
+
 def reduce_over(temp_result):
     while abs(temp_result) > len(valid_characters):
         temp_result = divmod(temp_result, math.isqrt(len(valid_characters)))
         temp_result = temp_result[0] + temp_result[1]
     else:
         return temp_result
+
 
 def garrett_cipher(type_of_conversion):
     # Step 1: Starting Values
@@ -160,22 +162,28 @@ def garrett_cipher(type_of_conversion):
             if x == number_value:
                 result = y
                 break
+        # If there was a valid result add it
         if result != None:
-            print(f"Yay : {result}" )
             converted_numbers.append(result)
+        # If there wasn't a valid result break because it's broken and a waste of time to continue
         else:
-            print(f"Whoopsie : {x}" )
-            #converted_numbers.append("?")
+            # You could do this to replace mistakes with a "?" which would still have a solvable cipher,
+            # but the characters would be completely random when deciphered
+            # converted_numbers.append("?")
+            break
+
     # Step 10: Convert it back into a string
     converted_string = "".join(converted_numbers)
-
 
     print(shifted_number)
     print(f"shifted : {len(shifted_number)}")
     print(f"converted : {len(converted_numbers)}")
 
-
-    return converted_string
+    # Step 11: Check if the conversion was successful
+    if len(shifted_number) == len(converted_numbers):
+        return converted_string
+    else:
+        return None
 
 
 # endregion Cipher Code
@@ -196,6 +204,9 @@ while True:
 
     # Run the main cipher
     cipher = garrett_cipher(operation_type)
-    print(f"Your cipher is:\n{cipher}")
+    if cipher != None:
+        print(f"Your cipher is:\n{cipher}")
+    else:
+        print(f"Sorry, there was an error in converting your cipher.")
 
 # endregion Run Code
