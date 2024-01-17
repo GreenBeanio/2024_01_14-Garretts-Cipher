@@ -248,8 +248,8 @@ def garrett_cipher(type_of_conversion):
         if temp_result > len(valid_characters):
             temp_result = reduce_over(temp_result)
         # Determine if a character will shift left (decrease) or right (increase)
-        if code_key_trans[x] % 2 != 0:
-            temp_result = -temp_result
+        # if code_key_trans[x] % 2 != 0:
+        #     temp_result = -temp_result
         key_code_trans.append(temp_result)
     # Step 8: Amount to shift
     shift_amount = []
