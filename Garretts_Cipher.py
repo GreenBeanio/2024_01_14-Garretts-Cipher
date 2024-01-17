@@ -60,6 +60,9 @@ def User_Input(input_type, operation_type):
                     raw_string = input("Insert Your Plaintext:\n")
                 elif operation_type == 2:
                     raw_string = input("Insert Your Ciphertext:\n")
+            # If we're deciphering do some processing first
+            if operation_type == 2 and input_type == "Code":
+                raw_string = handle_spacing(raw_string, operation_type)
             # Split the string into characters
             string_list = list(raw_string)
             # Get rid of characters that aren't valid, actually I'll replace them with a ?
@@ -173,7 +176,6 @@ def red_herring(key_sum, cipher, type_of_conversion):
         cipher = cipher[temp_start:temp_end]
         # Step 7: Remove the inner herrings
         for x in range(1, inner_rh_amount + 1):
-            print(cipher)
             temp_index = x * inner_rh_every
             cipher.pop(temp_index)
         # Step 8: Check if the new cipher length if equal to the original cipher with the red herrings
@@ -183,9 +185,15 @@ def red_herring(key_sum, cipher, type_of_conversion):
             return None
 
 
-# Add or remove spacing characters for each character
-def add_spacing():
-    pass
+# Add or remove the cipher start and end indicators
+def handle_spacing(cipher, type_of_conversion):
+    # If we're making a cipher add these markers as the final step
+    if type_of_conversion == 1:
+        cipher = f"|||{cipher}|||"
+    # If we're deciphering remove the markers as the first step
+    else:
+        cipher = cipher[3 : len(cipher) - 3]
+    return cipher
 
 
 # Handle the main cipher
@@ -285,7 +293,11 @@ def garrett_cipher(type_of_conversion):
     converted_string = "".join(converted_numbers)
     # Step 13: Check if the conversion was successful
     if len(shifted_number) == len(converted_numbers):
-        return converted_string
+        # If we're making a cipher
+        if type_of_conversion == 1:
+            return handle_spacing(converted_string, type_of_conversion)
+        else:
+            return converted_string
     else:
         return None
 
