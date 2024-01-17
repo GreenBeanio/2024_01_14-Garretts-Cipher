@@ -86,6 +86,12 @@ valid_characters = Get_Valid_Characters()
 
 # region Cipher Code
 
+def reduce_over(temp_result):
+    while abs(temp_result) > len(valid_characters):
+        temp_result = divmod(temp_result, math.isqrt(len(valid_characters)))
+        temp_result = temp_result[0] + temp_result[1]
+    else:
+        return temp_result
 
 def garrett_cipher(type_of_conversion):
     # Step 1: Starting Values
@@ -123,6 +129,9 @@ def garrett_cipher(type_of_conversion):
         temp_result = divmod(temp_key, temp_code)
         temp_result = temp_result[0] + temp_result[1]
         temp_result = temp_result * code_key_value[x]
+        # If the amount is more than the entire character set in either direction
+        if abs(temp_result) > len(valid_characters):
+            temp_result = reduce_over(temp_result)
         key_code_trans.append(temp_result)
     # Step 7: Amount to shift
     shift_amount = []
@@ -152,16 +161,19 @@ def garrett_cipher(type_of_conversion):
                 result = y
                 break
         if result != None:
+            print(f"Yay : {result}" )
             converted_numbers.append(result)
+        else:
+            print(f"Whoopsie : {x}" )
+            #converted_numbers.append("?")
     # Step 10: Convert it back into a string
     converted_string = "".join(converted_numbers)
 
+
     print(shifted_number)
-    print(len(shifted_number))
-    print(converted_numbers)
-    print(len(converted_numbers))
-    print(converted_string)
-    print(len(converted_string))
+    print(f"shifted : {len(shifted_number)}")
+    print(f"converted : {len(converted_numbers)}")
+
 
     return converted_string
 
