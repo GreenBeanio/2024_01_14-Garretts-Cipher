@@ -100,6 +100,7 @@ valid_characters = Get_Valid_Characters()
 
 
 # Continue to divide and reduce large results until they're within range
+# This could be something I look to redo, as if you change the amount of valid characters the entire encryption will change
 def reduce_over(temp_result):
     while abs(temp_result) > len(valid_characters):
         temp_result = divmod(temp_result, math.isqrt(len(valid_characters)))
@@ -243,8 +244,8 @@ def garrett_cipher(type_of_conversion):
         temp_result = divmod(temp_key, temp_code)
         temp_result = temp_result[0] + temp_result[1]
         temp_result = temp_result * code_key_value[x]
-        # If the amount is more than the entire character set in either direction
-        if abs(temp_result) > len(valid_characters):
+        # If the amount is more than the entire character set
+        if temp_result > len(valid_characters):
             temp_result = reduce_over(temp_result)
         key_code_trans.append(temp_result)
     # Step 8: Amount to shift
