@@ -1,4 +1,24 @@
 {
+    "\t": {
+        "Order": 1,
+        "Ascii": 9,
+        "Section": "Spacing"
+    },
+    "\n": {
+        "Order": 2,
+        "Ascii": 10,
+        "Section": "Spacing"
+    },
+    "\f": {
+        "Order": 3,
+        "Ascii": 12,
+        "Section": "Spacing"
+    },
+    "\r": {
+        "Order": 4,
+        "Ascii": 13,
+        "Section": "Spacing"
+    },
     " ": {
         "Order": 5,
         "Ascii": 32,

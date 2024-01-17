@@ -145,13 +145,14 @@ def garrett_cipher(type_of_conversion):
     # Step 9: Convert numbers into characters
     converted_numbers = []
     for x in shifted_number:
-        result = ""
+        result = None
         for y in loaded_data:
             number_value = loaded_data[y]["Order"]
             if x == number_value:
                 result = y
                 break
-        converted_numbers.append(result)
+        if result != None:
+            converted_numbers.append(result)
     # Step 10: Convert it back into a string
     converted_string = "".join(converted_numbers)
     return converted_string
