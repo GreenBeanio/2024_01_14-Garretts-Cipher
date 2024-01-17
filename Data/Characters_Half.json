@@ -124,6 +124,11 @@
         "Ascii": 39,
         "Section": "Punctuation"
     },
+    "\"": {
+        "Order": 30,
+        "Ascii": 34,
+        "Section": "Punctuation"
+    },
     "`": {
         "Order": 31,
         "Ascii": 96,
@@ -147,6 +152,11 @@
     "/": {
         "Order": 35,
         "Ascii": 47,
+        "Section": "Marks and Symbols"
+    },
+    "\\": {
+        "Order": 36,
+        "Ascii": 92,
         "Section": "Marks and Symbols"
     },
     "*": {

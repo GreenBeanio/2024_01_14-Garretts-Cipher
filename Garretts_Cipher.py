@@ -155,6 +155,14 @@ def garrett_cipher(type_of_conversion):
             converted_numbers.append(result)
     # Step 10: Convert it back into a string
     converted_string = "".join(converted_numbers)
+
+    print(shifted_number)
+    print(len(shifted_number))
+    print(converted_numbers)
+    print(len(converted_numbers))
+    print(converted_string)
+    print(len(converted_string))
+
     return converted_string
 
 
