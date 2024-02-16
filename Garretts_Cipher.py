@@ -192,7 +192,7 @@ def red_herring(key_sum, cipher, type_of_conversion):
 def handle_spacing(cipher, type_of_conversion):
     # If we're making a cipher add these markers as the final step
     if type_of_conversion == 1:
-        cipher = f"|||{cipher}|||"
+        cipher = f"///{cipher}///"
     # If we're deciphering remove the markers as the first step
     else:
         cipher = cipher[3 : len(cipher) - 3]
